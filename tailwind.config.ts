@@ -9,8 +9,40 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        althina: {
+          yellow: "#FFCB3A",
+          orange: "#FF6B2B",
+          green: "#1A8C4E",
+          coral: "#FF4D6A",
+          cream: "#FFF5E6",
+          dark: "#1C1008",
+          gold: "#F0A500",
+          lime: "#7BC96F",
+        },
+      },
+      fontFamily: {
+        bebas: ["var(--font-bebas)", "sans-serif"],
+        outfit: ["var(--font-outfit)", "sans-serif"],
+      },
+      animation: {
+        float: "float 3s ease-in-out infinite",
+        "fade-up": "fadeUp 0.8s ease-out forwards",
+        "fade-in": "fadeIn 1s ease-out forwards",
+        "spin-slow": "spin 8s linear infinite",
+      },
+      keyframes: {
+        float: {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-24px)" },
+        },
+        fadeUp: {
+          "0%": { opacity: "0", transform: "translateY(32px)" },
+          "100%": { opacity: "1", transform: "translateY(0)" },
+        },
+        fadeIn: {
+          "0%": { opacity: "0" },
+          "100%": { opacity: "1" },
+        },
       },
     },
   },
