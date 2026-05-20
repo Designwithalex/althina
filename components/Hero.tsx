@@ -75,17 +75,10 @@ export default function Hero() {
           </p>
 
           <div
-            className={`mt-10 flex flex-col sm:flex-row gap-4 transition-all duration-700 delay-500 ${
+            className={`mt-10 transition-all duration-700 delay-500 ${
               mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            <Link
-              href="#contacto"
-              className="inline-flex items-center justify-center gap-2 bg-althina-yellow hover:bg-althina-orange text-althina-dark hover:text-white font-bold text-lg px-9 py-4 rounded-full transition-all duration-200 shadow-2xl hover:-translate-y-1"
-            >
-              Quiero jugar
-              <span aria-hidden>🎯</span>
-            </Link>
             <Link
               href="#que-es"
               className="inline-flex items-center justify-center bg-white/15 hover:bg-white/25 text-white font-bold text-lg px-9 py-4 rounded-full border-2 border-white/40 transition-all duration-200 backdrop-blur-sm"
@@ -96,8 +89,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/50 animate-bounce">
+      {/* Scroll indicator — inset-x-0 + flex justify-center para centrar en todos los breakpoints */}
+      <div className="absolute bottom-8 inset-x-0 flex flex-col items-center gap-2 text-white/50 animate-bounce">
         <span className="text-xs font-outfit tracking-widest uppercase">Scrolleá</span>
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden>
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
