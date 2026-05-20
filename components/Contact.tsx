@@ -1,4 +1,4 @@
-const socials = [
+﻿const socials = [
   {
     label: "Instagram",
     href: "#",
@@ -42,7 +42,7 @@ export default function Contact() {
           Unite
         </span>
 
-        <h2 className="font-bebas text-5xl sm:text-6xl lg:text-7xl text-white leading-none mb-6">
+        <h2 className="font-bungee text-5xl sm:text-6xl lg:text-7xl text-white leading-none mb-6">
           ¿Querés jugar
           <br />
           <span className="text-althina-yellow">o organizar</span>
@@ -50,7 +50,7 @@ export default function Contact() {
           un evento?
         </h2>
 
-        <p className="text-white/70 text-lg leading-relaxed mb-10 font-outfit max-w-xl mx-auto">
+        <p className="text-white/70 text-lg leading-relaxed mb-10 font-poppins max-w-xl mx-auto">
           Ya sea que quieras aprender a jugar, armar un torneo, o traer
           Althina a tu barrio — escribinos por WhatsApp y coordinamos.
         </p>
@@ -93,3 +93,4 @@ export default function Contact() {
     </section>
   );
 }
+

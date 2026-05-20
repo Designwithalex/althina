@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 
 const images = [
   {
@@ -44,11 +44,11 @@ export default function Gallery() {
           <span className="inline-block bg-althina-yellow/15 text-althina-yellow font-bold text-xs tracking-widest px-4 py-1.5 rounded-full mb-5 uppercase border border-althina-yellow/20">
             La vibe
           </span>
-          <h2 className="font-bebas text-5xl sm:text-6xl lg:text-7xl text-white leading-none">
+          <h2 className="font-bungee text-5xl sm:text-6xl lg:text-7xl text-white leading-none">
             El espíritu{" "}
             <span className="text-althina-orange">Althina</span>
           </h2>
-          <p className="mt-4 text-white/40 text-lg max-w-xl mx-auto font-outfit">
+          <p className="mt-4 text-white/40 text-lg max-w-xl mx-auto font-poppins">
             Sol, parque, risas y la pelota en el aire. Así se vive Althina.
           </p>
         </div>
@@ -91,7 +91,7 @@ export default function Gallery() {
               aria-hidden
             />
             <div className="absolute inset-0 flex items-end p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span className="font-bebas text-white text-xl tracking-wide drop-shadow-lg">
+              <span className="font-bungee text-white text-xl tracking-wide drop-shadow-lg">
                 Altinha en la playa ✨
               </span>
             </div>
@@ -156,7 +156,7 @@ export default function Gallery() {
               aria-hidden
             />
             <div className="absolute inset-0 flex items-end p-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span className="font-bebas text-white text-xl tracking-wide drop-shadow-lg">
+              <span className="font-bungee text-white text-xl tracking-wide drop-shadow-lg">
                 La cancha nos llama ✨
               </span>
             </div>
@@ -166,3 +166,4 @@ export default function Gallery() {
     </section>
   );
 }
+

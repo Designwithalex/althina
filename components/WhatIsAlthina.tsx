@@ -1,4 +1,4 @@
-const features = [
+﻿const features = [
   {
     icon: (
       <svg viewBox="0 0 60 60" className="w-12 h-12" aria-hidden>
@@ -70,11 +70,11 @@ export default function WhatIsAlthina() {
           <span className="inline-block bg-althina-orange text-white font-bold text-xs tracking-widest px-4 py-1.5 rounded-full mb-5 uppercase">
             El juego
           </span>
-          <h2 className="font-bebas text-5xl sm:text-6xl lg:text-7xl text-althina-dark leading-none mb-6">
+          <h2 className="font-bungee text-5xl sm:text-6xl lg:text-7xl text-althina-dark leading-none mb-6">
             ¿Qué es{" "}
             <span className="text-althina-green">Althina?</span>
           </h2>
-          <p className="text-lg sm:text-xl text-althina-dark/70 leading-relaxed font-outfit">
+          <p className="text-lg sm:text-xl text-althina-dark/70 leading-relaxed font-poppins">
             Nació en Brasil, cruzó el Río de la Plata y encontró su lugar entre
             las canchas y parques de Buenos Aires. Althina es un juego de pases
             aéreos donde el único objetivo es simple y absoluto:{" "}
@@ -83,7 +83,7 @@ export default function WhatIsAlthina() {
             </strong>
             .
           </p>
-          <p className="mt-4 text-lg text-althina-dark/60 leading-relaxed font-outfit">
+          <p className="mt-4 text-lg text-althina-dark/60 leading-relaxed font-poppins">
             Sin equipamiento especial, sin edad mínima, sin excusas. Solo vos,
             el grupo y la pelota en el aire.
           </p>
@@ -97,10 +97,10 @@ export default function WhatIsAlthina() {
               className="group bg-white rounded-3xl p-6 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-althina-dark/5"
             >
               <div className="mb-4">{f.icon}</div>
-              <h3 className="font-bebas text-2xl text-althina-dark mb-2 tracking-wide">
+              <h3 className="font-bungee text-2xl text-althina-dark mb-2 tracking-wide">
                 {f.title}
               </h3>
-              <p className="text-althina-dark/60 text-sm leading-relaxed font-outfit">
+              <p className="text-althina-dark/60 text-sm leading-relaxed font-poppins">
                 {f.text}
               </p>
             </article>
@@ -109,10 +109,10 @@ export default function WhatIsAlthina() {
 
         {/* Quote */}
         <blockquote className="mt-14 bg-gradient-to-r from-althina-yellow to-althina-orange rounded-3xl p-8 sm:p-12 text-center">
-          <p className="font-bebas text-3xl sm:text-4xl lg:text-5xl text-white leading-tight">
+          <p className="font-bungee text-3xl sm:text-4xl lg:text-5xl text-white leading-tight">
             &ldquo;Una pelota, un grupo, mil sonrisas&rdquo;
           </p>
-          <cite className="block mt-3 text-white/80 font-outfit not-italic text-sm sm:text-base">
+          <cite className="block mt-3 text-white/80 font-poppins not-italic text-sm sm:text-base">
             — Así se describe Althina en las canchas de BSAS
           </cite>
         </blockquote>
@@ -120,3 +120,4 @@ export default function WhatIsAlthina() {
     </section>
   );
 }
+

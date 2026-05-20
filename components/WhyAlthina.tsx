@@ -1,4 +1,4 @@
-const cards = [
+﻿const cards = [
   {
     emoji: "🌞",
     title: "Alegría y comunidad",
@@ -47,11 +47,11 @@ export default function WhyAlthina() {
           <span className="inline-block bg-althina-yellow text-althina-dark font-bold text-xs tracking-widest px-4 py-1.5 rounded-full mb-5 uppercase">
             Los valores
           </span>
-          <h2 className="font-bebas text-5xl sm:text-6xl lg:text-7xl text-althina-dark leading-none">
+          <h2 className="font-bungee text-5xl sm:text-6xl lg:text-7xl text-althina-dark leading-none">
             ¿Por qué{" "}
             <span className="text-althina-orange">Althina?</span>
           </h2>
-          <p className="mt-4 text-althina-dark/60 text-lg max-w-xl mx-auto font-outfit">
+          <p className="mt-4 text-althina-dark/60 text-lg max-w-xl mx-auto font-poppins">
             Más que un juego: una forma de encontrarse.
           </p>
         </div>
@@ -73,10 +73,10 @@ export default function WhyAlthina() {
               <div className="text-4xl mb-5" aria-hidden>
                 {card.emoji}
               </div>
-              <h3 className="font-bebas text-2xl tracking-wide mb-3 leading-tight">
+              <h3 className="font-bungee text-2xl tracking-wide mb-3 leading-tight">
                 {card.title}
               </h3>
-              <p className="text-sm leading-relaxed opacity-80 font-outfit">
+              <p className="text-sm leading-relaxed opacity-80 font-poppins">
                 {card.desc}
               </p>
             </article>
@@ -86,3 +86,4 @@ export default function WhyAlthina() {
     </section>
   );
 }
+

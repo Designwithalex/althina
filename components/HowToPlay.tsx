@@ -1,4 +1,4 @@
-const steps = [
+﻿const steps = [
   {
     num: "01",
     title: "Formá el grupo",
@@ -55,11 +55,11 @@ export default function HowToPlay() {
           <span className="inline-block bg-althina-orange/15 text-althina-orange font-bold text-xs tracking-widest px-4 py-1.5 rounded-full mb-5 uppercase border border-althina-orange/20">
             Las reglas
           </span>
-          <h2 className="font-bebas text-5xl sm:text-6xl lg:text-7xl text-white leading-none">
+          <h2 className="font-bungee text-5xl sm:text-6xl lg:text-7xl text-white leading-none">
             Cómo se{" "}
             <span className="text-althina-yellow">juega</span>
           </h2>
-          <p className="mt-4 text-white/40 text-lg max-w-md mx-auto font-outfit">
+          <p className="mt-4 text-white/40 text-lg max-w-md mx-auto font-poppins">
             Cuatro pasos. Así de simple.
           </p>
         </div>
@@ -72,17 +72,17 @@ export default function HowToPlay() {
               className={`group relative bg-white/5 border ${step.border} ${step.glow} rounded-3xl p-6 hover:bg-white/10 transition-all duration-300`}
             >
               <span
-                className={`font-bebas text-7xl ${step.color} opacity-25 leading-none block`}
+                className={`font-bungee text-7xl ${step.color} opacity-25 leading-none block`}
                 aria-hidden
               >
                 {step.num}
               </span>
               <h3
-                className={`font-bebas text-2xl ${step.color} mt-1 mb-3 tracking-wide`}
+                className={`font-bungee text-2xl ${step.color} mt-1 mb-3 tracking-wide`}
               >
                 {step.title}
               </h3>
-              <p className="text-white/55 text-sm leading-relaxed font-outfit">
+              <p className="text-white/55 text-sm leading-relaxed font-poppins">
                 {step.desc}
               </p>
 
@@ -113,7 +113,7 @@ export default function HowToPlay() {
 
         {/* CTA */}
         <div className="mt-14 text-center">
-          <p className="text-white/40 mb-5 font-outfit">
+          <p className="text-white/40 mb-5 font-poppins">
             ¿Muy simple? Probalo una vez y vas a querer más.
           </p>
           <a
@@ -127,3 +127,4 @@ export default function HowToPlay() {
     </section>
   );
 }
+

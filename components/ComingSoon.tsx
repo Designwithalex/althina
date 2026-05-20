@@ -1,4 +1,4 @@
-const items = [
+﻿const items = [
   {
     icon: (
       <svg viewBox="0 0 48 48" className="w-10 h-10" aria-hidden>
@@ -107,11 +107,11 @@ export default function ComingSoon() {
           <span className="inline-block bg-althina-yellow/10 text-althina-yellow font-bold text-xs tracking-widest px-4 py-1.5 rounded-full mb-5 uppercase border border-althina-yellow/20">
             Próximamente
           </span>
-          <h2 className="font-bebas text-5xl sm:text-6xl lg:text-7xl text-white leading-none">
+          <h2 className="font-bungee text-5xl sm:text-6xl lg:text-7xl text-white leading-none">
             Se viene{" "}
             <span className="text-althina-yellow">todo</span>
           </h2>
-          <p className="mt-4 text-white/45 text-lg max-w-xl mx-auto font-outfit">
+          <p className="mt-4 text-white/45 text-lg max-w-xl mx-auto font-poppins">
             Torneos, merch, eventos y comunidad. Althina BSAS está creciendo — estate atento.
           </p>
         </div>
@@ -127,10 +127,10 @@ export default function ComingSoon() {
               <span className={`inline-block text-xs font-bold px-2.5 py-1 rounded-full mb-3 ${item.tagColor}`}>
                 {item.tag}
               </span>
-              <h3 className="font-bebas text-xl text-white tracking-wide mb-2 leading-tight">
+              <h3 className="font-bungee text-xl text-white tracking-wide mb-2 leading-tight">
                 {item.title}
               </h3>
-              <p className="text-white/50 text-sm leading-relaxed font-outfit">
+              <p className="text-white/50 text-sm leading-relaxed font-poppins">
                 {item.desc}
               </p>
             </article>
@@ -140,10 +140,10 @@ export default function ComingSoon() {
         {/* CTA notificación */}
         <div className="bg-gradient-to-r from-althina-yellow/10 via-althina-orange/10 to-althina-green/10 border border-white/10 rounded-3xl p-8 sm:p-10 flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <p className="font-bebas text-2xl sm:text-3xl text-white leading-tight mb-1">
+            <p className="font-bungee text-2xl sm:text-3xl text-white leading-tight mb-1">
               ¿Querés enterarte primero?
             </p>
-            <p className="text-white/50 font-outfit text-sm">
+            <p className="text-white/50 font-poppins text-sm">
               Seguinos en Instagram y activá las notificaciones.
             </p>
           </div>
@@ -161,3 +161,4 @@ export default function ComingSoon() {
     </section>
   );
 }
+

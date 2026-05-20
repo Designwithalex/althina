@@ -6,7 +6,7 @@ import Link from "next/link";
 const navLinks = [
   { href: "#que-es", label: "¿Qué es?" },
   { href: "#como-jugar", label: "Cómo jugar" },
-  { href: "#eventos", label: "Eventos" },
+  { href: "#proximamente", label: "Próximamente" },
   { href: "#galeria", label: "Galería" },
   { href: "#contacto", label: "Contacto" },
 ];
@@ -30,14 +30,14 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
-        {/* Logo only — no text */}
-        <Link href="#hero" aria-label="Althina BSAS – inicio">
+        {/* Wordmark logo — blanco sobre fondos oscuros */}
+        <Link href="#hero" aria-label="Altinha BSAS – inicio">
           <Image
-            src="/logo.jpeg"
-            alt="Althina BSAS"
-            width={52}
-            height={52}
-            className="rounded-full ring-2 ring-althina-yellow/50 hover:ring-althina-yellow transition-all hover:scale-105"
+            src="/logo_white.png"
+            alt="Altinha BSAS"
+            width={160}
+            height={56}
+            className="h-10 w-auto hover:opacity-80 transition-opacity"
           />
         </Link>
 
@@ -47,14 +47,14 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-white/80 hover:text-althina-yellow transition-colors font-outfit font-medium tracking-wide text-sm"
+              className="text-white/80 hover:text-althina-yellow transition-colors font-poppins font-medium tracking-wide text-sm"
             >
               {link.label}
             </Link>
           ))}
           <Link
             href="#contacto"
-            className="bg-althina-orange hover:bg-althina-yellow hover:text-althina-dark text-white font-bold px-5 py-2 rounded-full transition-all duration-200 text-sm shadow-lg"
+            className="bg-althina-orange hover:bg-althina-yellow hover:text-althina-dark text-white font-bold px-5 py-2 rounded-full transition-all duration-200 text-sm shadow-lg font-poppins"
           >
             Quiero jugar
           </Link>
@@ -87,7 +87,7 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="block py-3 text-white/80 hover:text-althina-yellow transition-colors font-medium border-b border-white/5 last:border-0"
+              className="block py-3 text-white/80 hover:text-althina-yellow transition-colors font-poppins font-medium border-b border-white/5 last:border-0"
               onClick={() => setOpen(false)}
             >
               {link.label}
@@ -95,7 +95,7 @@ export default function Header() {
           ))}
           <Link
             href="#contacto"
-            className="block mt-4 bg-althina-orange text-white text-center font-bold px-5 py-3 rounded-full"
+            className="block mt-4 bg-althina-orange text-white text-center font-bold px-5 py-3 rounded-full font-poppins"
             onClick={() => setOpen(false)}
           >
             Quiero jugar

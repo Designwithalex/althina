@@ -21,8 +21,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        bebas: ["var(--font-bebas)", "sans-serif"],
-        outfit: ["var(--font-outfit)", "sans-serif"],
+        bungee: ["var(--font-bungee)", "sans-serif"],
+        "bungee-inline": ["var(--font-bungee-inline)", "sans-serif"],
+        poppins: ["var(--font-poppins)", "sans-serif"],
       },
       animation: {
         float: "float 3s ease-in-out infinite",
