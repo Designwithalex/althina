@@ -36,6 +36,18 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 w-full">
         <div className="max-w-2xl">
+          {/* Bandera argentina */}
+          <div
+            className={`mb-5 transition-all duration-700 ${
+              mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
+          >
+            <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-sm font-poppins font-medium px-4 py-2 rounded-full">
+              <span className="text-xl" aria-hidden>🇦🇷</span>
+              Buenos Aires, Argentina
+            </span>
+          </div>
+
           {/* Headline */}
           <h1
             className={`font-bungee text-5xl sm:text-6xl lg:text-7xl xl:text-8xl text-white leading-tight tracking-wide transition-all duration-700 ${

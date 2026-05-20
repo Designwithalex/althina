@@ -37,7 +37,7 @@ export default function Header() {
             alt="Altinha BSAS"
             width={160}
             height={56}
-            className="h-10 w-auto hover:opacity-80 transition-opacity"
+            className="h-14 w-auto hover:opacity-80 transition-opacity"
           />
         </Link>
 
