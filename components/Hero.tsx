@@ -27,7 +27,7 @@ export default function Hero() {
       </video>
 
       {/* Overlay: negro 50% + blur 5px para suavizar la calidad */}
-      <div className="absolute inset-0 bg-black/50 backdrop-blur-[5px]" aria-hidden />
+      <div className="absolute inset-0 bg-black/65 backdrop-blur-[8px]" aria-hidden />
 
       {/* Gradient extra en los bordes para limpiar los cortes */}
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-althina-dark to-transparent" aria-hidden />
